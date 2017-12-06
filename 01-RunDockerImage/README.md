@@ -63,5 +63,18 @@ docker ps
 docker kill <container id>
 docker ps
 docker ps -a
+
+# Exit the container
+exit
 ```
 
+## Pull an Ubuntu Image
+
+```bash
+docker pull ubuntu:16.04
+
+docker run -it ubuntu:16.04
+
+# Exit the container
+exit
+```

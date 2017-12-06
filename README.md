@@ -23,4 +23,4 @@ You will need the following bits already setup
 ## Exercises
 
 1. [Run a docker image](01-RunDockerImage)
-2. 
+2. [Use Docker Commit to create a new image](02-DockerCommit)
