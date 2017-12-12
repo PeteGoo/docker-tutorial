@@ -28,4 +28,4 @@ You will need the following bits already setup
 4. [Use Port Mapping to expose our container on the host](04-PortMapping)
 5. [Use linking to link two or more containers together](05-Linking)
 6. [Use volumes to persist data outside the container](06-Volumes)
-7. [Use docker-compose to bring it all together](06-DockerCompose)
+7. [Use docker-compose to bring it all together](07-DockerCompose)
