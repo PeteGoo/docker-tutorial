@@ -16,8 +16,7 @@ You will need the following bits already setup
 2. From `Services` go to Cloud9
 3. Create a new Cloud9 environment using the default settings
 4. Open a Terminal window in Cloud9
-5. Clone this repository
-   ```git clone <repo url>`
+5. Clone this repository: `git clone <repo url>`
 
 
 ## Exercises
