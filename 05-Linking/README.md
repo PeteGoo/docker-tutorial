@@ -28,6 +28,9 @@ to our node app.
 ```bash
 docker run -it -p 8080:8888 --link <node container id>:app nginx-app
 ```
+
+- Preview the running application
+
  So what just happened?
  
  - `-p 8080:8888` - Expose the container port 8888 as 8080 on the host
