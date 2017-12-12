@@ -46,11 +46,13 @@ docker exec -it <nginx id> /bin/bash
 
 # let's look at the hosts file
 cat /etc/hosts
+
+exit
 ```
 
 Pretty clever, huh?
 
-Cleanup 
+## Cleanup 
 ```bash
 docker kill `docker ps -q`
 ```
