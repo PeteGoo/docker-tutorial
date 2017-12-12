@@ -63,9 +63,6 @@ docker ps
 docker kill <container id>
 docker ps
 docker ps -a
-
-# Exit the container
-exit
 ```
 
 ## Pull an Ubuntu Image
