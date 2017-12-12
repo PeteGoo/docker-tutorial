@@ -47,3 +47,33 @@ Now run it by name
 ```bash
 docker run hello
 ```
+
+## RUN - Execute a command at build time
+
+The run command will allow us to add build steps to our container build.
+
+In this case we are installing the python tools
+
+```Dockerfile
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install -y python-dev
+
+CMD python --version
+```
+
+Let's add another command after that long running command and see how caching works
+
+```Dockerfile
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install -y python-dev
+
+RUN echo "some other command"
+
+CMD python --version
+```
+
+_Note the cached result of the previous command made things a lot quicker_
+
+Check out the [full Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
