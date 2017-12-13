@@ -27,7 +27,7 @@ to our node app.
 
 ```bash
 docker build -t nginx-app .
-docker run -it -p 8080:8888 --link <node container id>:app nginx-app
+docker run -d -p 8080:8888 --link <node container id>:app nginx-app
 ```
 
 - Preview the running application
