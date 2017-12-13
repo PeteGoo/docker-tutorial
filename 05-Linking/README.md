@@ -26,6 +26,7 @@ Let's start up a new container with nginx in it that will proxy through
 to our node app.
 
 ```bash
+docker build -t nginx-app .
 docker run -d -p 8080:8888 --link <node container id>:app nginx-app
 ```
 

@@ -48,6 +48,21 @@ Now run it by name
 docker run hello
 ```
 
+We will then see that "Hello, World!" is executed and returned to the host.
+
+We could also
+
+```bash
+# Run the container in the background
+docker run -d hello
+# Observe we get a container id
+
+# Look at the container's logs
+docker logs <container id>
+```
+And see that "Hello, World!" is definitely run inside the container.
+
+
 ## RUN - Execute a command at build time
 
 The run command will allow us to add build steps to our container build.
